@@ -31,12 +31,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="bridge.js" />
+    <Compile Include="libs\codemirror.js" />
+    <Compile Include="libs\glsl.js" />
+    <Compile Include="script.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="web-side\app.html" />
+    <Content Include="app.html" />
+    <Content Include="libs\codemirror.css" />
+    <Content Include="libs\glsl.css" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="web-side\" />
+    <Folder Include="libs\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
